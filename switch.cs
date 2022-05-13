@@ -5,7 +5,6 @@ public class Program
 	public static void Main()
 	{
 		int numbers = 2;
-
         	switch(numbers){
             		case 0: 
                 		Console.WriteLine("zero");
