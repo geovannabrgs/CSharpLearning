@@ -4,11 +4,11 @@ public class Program
 {
 	public static void Main()
 	{
-    string text;
+    	string text;
 
-    do {
-        texto = Console.ReadLine();
-        Console.WriteLine(text);
-        }while(!string.IsNullOrEmpty(text));
+    	do {
+        	texto = Console.ReadLine();
+        	Console.WriteLine(text);
+        	}while(!string.IsNullOrEmpty(text));
 	}
 }
