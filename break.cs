@@ -6,7 +6,6 @@ public class Program
 	{
         	while(true){
             		string s = Console.ReadLine();
-        
         	if(string.IsNullOrEmpty(s)){
             		break;
         	}
