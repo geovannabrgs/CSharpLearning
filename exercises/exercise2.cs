@@ -18,7 +18,7 @@ namespace curso{
     nome2 = vet[0];
     idade2 = int.Parse(vet[1]);
 
-    media = (idade1 + idade2) / 2;
+    media = (double)(idade1 + idade2) / 2.0;
       
     Console.WriteLine($"A idade média de {nome1} e {nome2} é de {media} anos");
 
