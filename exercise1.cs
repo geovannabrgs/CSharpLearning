@@ -9,7 +9,7 @@ namespace curso{
       b = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
       a = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
       
-      area = b* a ;
+      area = b * a ;
       perimetro = 2 * (b + a);
     }
   }
