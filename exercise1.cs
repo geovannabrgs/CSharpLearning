@@ -11,6 +11,9 @@ namespace curso{
       
       area = b * a ;
       perimetro = 2 * (b + a);
+      diagonal = Math.Sqrt(Math.Pow(b, 2.0) + Math.Pow(a, 2.0));
+      
+      Console.ReadLine();
     }
   }
 }
