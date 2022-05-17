@@ -27,6 +27,8 @@ namespace Curso
                         }else{
                             throw new ArgumentException("Valor da nota deve ser decimal");
                         }
+                        
+                        alunos[] = aluno;
                             break;
                     case "2":
                     //TODO: listar alunos
