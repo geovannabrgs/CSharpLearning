@@ -35,7 +35,9 @@ namespace Curso
                             break;
                     case "2":
                         foreach(var a in alunos){
-                            Console.WriteLine($"Aluno: {a.Nome}, Nota: {a.Nota}");
+                            if(a != null){
+                                Console.WriteLine($"Aluno: {a.Nome}, Nota: {a.Nota}");
+                            }
                         }
                         
                         break;
