@@ -34,7 +34,10 @@ namespace Curso
                         
                             break;
                     case "2":
-                    //TODO: listar alunos
+                        foreach(var a in alunos){
+                            Console.WriteLine($"Aluno: {a.Nome}, Nota: {a.Nota}");
+                        }
+                        
                         break;
                     case "3":
                     //TODO: calcular media geral
