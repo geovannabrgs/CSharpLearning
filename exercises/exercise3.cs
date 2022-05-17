@@ -11,6 +11,7 @@ namespace Curso
         static void Main(string[] args)
         {
             Aluno[] alunos = new Aluno[5];
+            var indiceAluno = 0;
             string opcaoUsuario = ObterOpcaoUsuario();
 
             while (opcaoUsuario.ToUpper() != "X"){
@@ -28,7 +29,7 @@ namespace Curso
                             throw new ArgumentException("Valor da nota deve ser decimal");
                         }
                         
-                        alunos[] = aluno;
+                        alunos[indiceAluno] = aluno;
                             break;
                     case "2":
                     //TODO: listar alunos
