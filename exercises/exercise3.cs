@@ -27,9 +27,11 @@ namespace Curso
                             aluno.Nota = nota;
                         }else{
                             throw new ArgumentException("Valor da nota deve ser decimal");
-                        }
+                        } 
                         
                         alunos[indiceAluno] = aluno;
+                        indiceAluno++;
+                        
                             break;
                     case "2":
                     //TODO: listar alunos
