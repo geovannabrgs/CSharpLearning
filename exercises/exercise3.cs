@@ -36,6 +36,7 @@ namespace Curso
         Console.WriteLine();
 
         string opcaoUsuario = Console.ReadLine();
+        Console.WriteLine();
         return opcaoUsuario;
         }
     }
