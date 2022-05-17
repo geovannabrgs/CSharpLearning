@@ -10,6 +10,24 @@ namespace Curso
     {
         static void Main(string[] args)
         {
+            while (opcaoUsuario.ToUpper() != "X"){
+                switch(opcaoUsuario){
+                    case "1":
+                    //TODO: adicionar aluno
+                        break;
+                    case "2":
+                    //TODO: listar alunos
+                        break;
+                    case "3":
+                    //TODO: calcular media geral
+                        break;
+                    default: throw new ArgumentOutOfRangeException();
+            }
+            opcaoUsuario = ObterOpcaoUsuario();
+        }
+
+        private static string ObterOpcaoUsuario(){
+
         Console.WriteLine("Informe a opção desejada: ");
         Console.WriteLine("1- Inserir novo aluno");
         Console.WriteLine("2- Listar alunos:");
@@ -18,21 +36,7 @@ namespace Curso
         Console.WriteLine();
 
         string opcaoUsuario = Console.ReadLine();
-
-        while (opcaoUsuario.ToUpper() != "X"){
-            switch(opcaoUsuario){
-                case "1":
-
-                    break;
-                case "2":
-
-                    break;
-                case "3":
-
-                    break;
-                default: throw new ArgumentOutOfRangeException();
-            }
-        }
+        return opcaoUsuario;
         }
     }
 }
